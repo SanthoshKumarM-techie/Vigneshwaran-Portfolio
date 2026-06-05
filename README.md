@@ -1,4 +1,12 @@
-# React + Vite
+# Vigneshwaran-Portfolio
+
+This repository contains my React + Vite portfolio site.
+
+---
+
+This project was bootstrapped from the React + Vite template. The original template information is preserved below.
+
+## Template notes
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
