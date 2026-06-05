@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 // Assuming your other assets are located here, import them or replace with your image paths
-import OHC from './assets/ohc.png'; 
-import Matrimony from './assets/matrimony.png';
-import DisiplineStar from './assets/disciplineStar.jpg';
-import MeritScholar from './assets/meritScholar.jpg';
+import OHC from './assets/OHC.png';
+import Matrimony from './assets/Matrimony.png';
+import DisciplineStar from './assets/DisciplineStar.jpg';
+import MeritScholar from './assets/MeritScholar.jpg';
 import Achiever1 from './assets/Achiever1.png';
 import Achiever2 from './assets/Achiever2.png';
 
@@ -25,7 +25,7 @@ const experiences = [
   {
     id: 3,
     title: 'NPTEL Discipline Star',
-    image: DisiplineStar, 
+    image: DisciplineStar, 
     description:
       'Awarded the NPTEL Discipline Star Certificate for successfully completing five courses in programming, data science, analytics, and emerging technologies. This recognition reflects consistent academic excellence and a strong commitment to continuous learning and skill development.',
   },
