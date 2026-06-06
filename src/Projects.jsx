@@ -73,12 +73,12 @@ function Projects() {
         className="w-full max-w-5xl flex flex-col items-center mb-16 text-center"
       >
         <h2
-          className="text-3xl font-medium tracking-tight leading-tight text-zinc-100 mb-4"
+          className="text-3xl sm:text-[2rem] font-medium tracking-tight leading-snug text-zinc-100 mb-4"
         >
           Projects
         </h2>
         <p
-          className="text-zinc-400 text-base sm:text-lg max-w-xl font-normal tracking-tight leading-tight"
+          className="text-zinc-400 text-base sm:text-lg max-w-xl font-normal tracking-tight leading-relaxed"
         >
           A curated display of digital platforms combining intricate role-based logic with performant web design.
         </p>
@@ -109,12 +109,12 @@ function Projects() {
               <div>
                 {/* Meta Header */}
                 <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-                  <span className="text-[10px] font-medium tracking-tight leading-tight text-zinc-500 uppercase bg-zinc-900/80 px-2.5 py-1 rounded-md border border-zinc-800/50">
+                  <span className="text-xs font-medium tracking-tight leading-snug text-zinc-500 uppercase bg-zinc-900/80 px-2.5 py-1 rounded-md border border-zinc-800/50">
                     {p.tags[0]}
                   </span>
                   <div className="flex flex-wrap gap-2.5">
                     {p.stack.map((t) => (
-                      <span key={t} className="text-xs text-zinc-400 font-normal tracking-tight leading-tight">
+                      <span key={t} className="text-sm text-zinc-400 font-normal tracking-tight leading-snug">
                         {t}
                       </span>
                     ))}
@@ -122,13 +122,13 @@ function Projects() {
                 </div>
 
                 {/* Main Content */}
-                <h3 className="text-xl sm:text-2xl font-medium tracking-tight leading-tight text-zinc-100 mb-2 transition-transform duration-300 group-hover:translate-x-1">
+                <h3 className="text-xl sm:text-2xl font-medium tracking-tight leading-snug text-zinc-100 mb-2 transition-transform duration-300 group-hover:translate-x-1">
                   {p.title}
                 </h3>
-                <p className="text-sm text-zinc-400 font-normal tracking-tight leading-tight mb-4">
+                <p className="text-[0.95rem] sm:text-base text-zinc-400 font-normal tracking-tight leading-relaxed mb-4">
                   {p.description}
                 </p>
-                <p className="text-xs font-normal tracking-tight leading-tight text-zinc-500 italic border-l-2 border-zinc-800 pl-3 py-0.5">
+                <p className="text-sm font-normal tracking-tight leading-snug text-zinc-500 italic border-l-2 border-zinc-800 pl-3 py-0.5">
                   {p.subtitle}
                 </p>
               </div>
@@ -139,7 +139,7 @@ function Projects() {
                   href={p.demo} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-xs font-medium tracking-tight leading-tight text-zinc-200 hover:text-white transition-colors group/link"
+                  className="inline-flex items-center gap-2 text-sm font-medium tracking-tight leading-snug text-zinc-200 hover:text-white transition-colors group/link"
                 > 
                   <span>EXPLORE PLATFORM</span> 
                   <FiExternalLink className="text-zinc-500 group-hover/link:text-white transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 duration-200" />
@@ -148,9 +148,9 @@ function Projects() {
                   href={p.repo} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-zinc-400 hover:text-zinc-200 text-xs font-normal tracking-tight leading-tight transition-colors"
+                  className="inline-flex items-center gap-2 text-zinc-400 hover:text-zinc-200 text-sm font-normal tracking-tight leading-snug transition-colors"
                 >
-                  <SiGithub className="text-sm" />
+                  <SiGithub className="text-base" />
                   <span>Repository</span>
                 </a>
               </div>

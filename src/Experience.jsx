@@ -133,10 +133,10 @@ function Experience() {
     >
       <div className="sticky top-0 left-0 h-screen w-full overflow-hidden flex flex-col justify-between py-12">
         
-        <h1 className="text-3xl font-medium tracking-tight leading-tight self-center mb-6 px-6 pt-10 sm:px-10">
+        <h1 className="text-3xl sm:text-[2rem] font-medium tracking-tight leading-snug self-center mb-6 px-6 pt-10 sm:px-10 text-center">
           Experiences and Achievements
         </h1>
-        <p className="text-zinc-400 text-center text-base sm:text-lg tracking-tight leading-tight px-6 sm:px-10">
+        <p className="text-zinc-400 text-center text-base sm:text-lg tracking-tight leading-relaxed px-6 sm:px-10">
           Here's a glimpse of my professional journey and accomplishments.
         </p>
 
@@ -172,10 +172,10 @@ function Experience() {
                   
                   {/* Dynamic Content Placed Over Images */}
                   <div className="absolute bottom-0 left-0 z-10 p-6 md:p-8 text-white max-w-2xl">
-                    <h3 className="text-2xl font-medium tracking-tight leading-tight mb-2 text-zinc-100">
+                    <h3 className="text-2xl font-medium tracking-tight leading-snug mb-2 text-zinc-100">
                       {item.title}
                     </h3>
-                    <p className="text-sm sm:text-base leading-tight text-zinc-400 tracking-tight">
+                    <p className="text-[0.95rem] sm:text-base leading-relaxed text-zinc-400 tracking-tight">
                       {item.description}
                     </p>
                   </div>
@@ -187,7 +187,7 @@ function Experience() {
 
         {/* Pure Aesthetic Scroll Indicator Bottom Space */}
         <div className="w-full max-w-7xl mx-auto px-6 sm:px-10 shrink-0 text-left">
-          <span className="text-[11px] font-medium text-zinc-600 tracking-tight leading-tight uppercase animate-pulse">
+          <span className="text-xs font-medium text-zinc-600 tracking-tight leading-snug uppercase animate-pulse">
             ↓ Scroll to navigate
           </span>
         </div>

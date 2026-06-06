@@ -90,17 +90,17 @@ function Hero() {
 
       <div className="relative z-40">
         <div className="mb-5">
-          <p className="text-8xl font-semibold tracking-tighter leading-[0.9] mb-8">
+          <p className="text-5xl sm:text-7xl lg:text-8xl font-semibold tracking-tight leading-[0.95] mb-8 max-w-7xl">
             Hey There, I am <br />
             Vigneshwaran Muralidharan
           </p>
 
-          <p className="text-3xl text-white font-medium tracking-tighter">
+          <p className="text-3xl text-white font-medium tracking-tight leading-snug">
             Full Stack Developer
           </p>
         </div>
 
-        <div className="flex space-x-5">
+        <div className="flex flex-wrap gap-4 text-base">
           <a
             href="/Vigneshwaran-Muralidharan-Resume.pdf"
             download
