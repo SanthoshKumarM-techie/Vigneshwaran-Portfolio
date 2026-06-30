@@ -102,7 +102,7 @@ function Hero() {
 
         <div className="flex flex-wrap gap-4 text-base">
           <a
-            href="/Vigneshwaran-Muralidharan-Resume.pdf"
+            href="/VIGNESHWARAN_M.pdf"
             download
             className="bg-white text-black font-bold py-3 px-6 hover:bg-gray-200 transition-colors duration-300"
           >
